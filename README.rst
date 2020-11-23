@@ -2,7 +2,7 @@
 Python Marketman
 *****************
 
-Python Marketman is a basic marketman.com REST API client built for Python 3.5, 3.6, 3.7 and 3.8. The goal is to provide a very low-level interface to the REST Resource, returning a dictionary of the API JSON response.
+Python Marketman is a basic marketman.com REST API client built for Python 3.6, 3.7 and 3.8. The goal is to provide a very low-level interface to the REST Resource, returning a dictionary of the API JSON response.
 
 You can find out more regarding the format of the results in the `Official Marketman.com REST API Documentation`_
 
@@ -13,7 +13,7 @@ You can find out more regarding the format of the results in the `Official Marke
 Requirements
 ------------
 
-* **Python**: 3.5, 3.6, 3.7, 3.8
+* **Python**: 3.6, 3.7, 3.8
 
 
 
