@@ -9,7 +9,8 @@ pylint = "*"
 autopep8 = "*"
 coverage = "*"
 unittest-xml-reporting = "*"
-nose = "*"
+pytest = "*"
+flake8 = "*"
 
 [packages]
 requests = "*"

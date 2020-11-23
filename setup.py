@@ -24,7 +24,7 @@ setuptools.setup(
     description=about['__description__'],
     long_description=textwrap.dedent(open('README.rst', 'r').read()),
     keywords=about['__keywords__'],
-    test_suite='nose.collector',
+    test_suite='pytest-runner',
 
     packages=setuptools.find_packages(),
     classifiers=[
@@ -41,4 +41,6 @@ setuptools.setup(
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
     python_requires='>=3.6',
+    setup_requires=['pytest-runner', 'flake8'],
+    tests_require=['pytest', ],
 )
