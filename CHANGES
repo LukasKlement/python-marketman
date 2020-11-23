@@ -1,0 +1,6 @@
+v0.0.1
+=======
+
+Other
+-----
+- Initial release with authentication, get_items and get_vendors methods
