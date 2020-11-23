@@ -10,6 +10,24 @@ You can find out more regarding the format of the results in the `Official Marke
 
 
 
+Requirements
+------------
+
+* **Python**: 3.5, 3.6, 3.7, 3.8
+
+
+
+Installation
+------------
+
+Install with pip, or your preferred package manager:
+
+.. code-block:: bash
+
+    $ pip install python-marketman
+
+
+
 Examples
 --------
 To access your Marketman account, provide your API Key and API Password to your Marketman instance.
