@@ -1,0 +1,34 @@
+# COMMAND LINE: coverage run -m xmlrunner tests.py && coverage report
+## EXTENDED CL: pipenv run coverage run -m xmlrunner tests.py -o test-results && pipenv run coverage xml --rcfile=../.coveragerc -o test-results/coverage/coverage.xml && pipenv run coverage report --rcfile=../.coveragerc
+
+[paths]
+source =
+    marketman/
+
+[run]
+include = marketman/*
+
+[report]
+exclude_lines =
+  pragma: no cover
+
+    # Don't complain about missing debug-only and permissions code (permissions should be test-covered in their application):
+    def __unicode__
+    def __repr__
+    def __str__
+    def has_object_permission
+    if self\.debug
+
+    # Don't complain if tests don't hit defensive assertion code:
+    raise AssertionError
+    raise NotImplementedError
+
+    # Don't complain if non-runnable code isn't run:
+    if 0:
+    if __name__ == .__main__.:
+
+omit =
+  **/tests.py
+  **/site-packages/*
+
+show_missing = True

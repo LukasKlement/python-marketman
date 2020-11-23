@@ -24,7 +24,7 @@ For example:
 
 
 Inventory
---------
+---------
 Access your inventory by calling the relevant method on your Marketman instance:
 
 .. code-block:: python
@@ -34,7 +34,7 @@ Access your inventory by calling the relevant method on your Marketman instance:
 
 
 Items
---------
+-----
 Access your inventory by calling the relevant method on your Marketman instance:
 
 .. code-block:: python
